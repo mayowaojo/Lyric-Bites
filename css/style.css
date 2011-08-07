@@ -1,0 +1,201 @@
+/* Delicious Font */
+
+
+@font-face {
+    font-family: 'DeliciousBold';
+    src: url('type/delicious-bold-webfont.eot');
+    src: url('type/delicious-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('type/delicious-bold-webfont.woff') format('woff'),
+         url('type/delicious-bold-webfont.ttf') format('truetype'),
+         url('type/delicious-bold-webfont.svg#DeliciousBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'DeliciousBoldItalic';
+    src: url('type/delicious-bolditalic-webfont.eot');
+    src: url('type/delicious-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('type/delicious-bolditalic-webfont.woff') format('woff'),
+         url('type/delicious-bolditalic-webfont.ttf') format('truetype'),
+         url('type/delicious-bolditalic-webfont.svg#DeliciousBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'DeliciousHeavyRegular';
+    src: url('type/delicious-heavy-webfont.eot');
+    src: url('type/delicious-heavy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('type/delicious-heavy-webfont.woff') format('woff'),
+         url('type/delicious-heavy-webfont.ttf') format('truetype'),
+         url('type/delicious-heavy-webfont.svg#DeliciousHeavyRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'DeliciousItalic';
+    src: url('type/delicious-italic-webfont.eot');
+    src: url('type/delicious-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('type/delicious-italic-webfont.woff') format('woff'),
+         url('type/delicious-italic-webfont.ttf') format('truetype'),
+         url('type/delicious-italic-webfont.svg#DeliciousItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'DeliciousRoman';
+    src: url('type/delicious-roman-webfont.eot');
+    src: url('type/delicious-roman-webfont.eot?#iefix') format('embedded-opentype'),
+         url('type/delicious-roman-webfont.woff') format('woff'),
+         url('type/delicious-roman-webfont.ttf') format('truetype'),
+         url('type/delicious-roman-webfont.svg#DeliciousRoman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'DeliciousSmallCapsRegular';
+    src: url('type/delicious-smallcaps-webfont.eot');
+    src: url('type/delicious-smallcaps-webfont.eot?#iefix') format('embedded-opentype'),
+         url('type/delicious-smallcaps-webfont.woff') format('woff'),
+         url('type/delicious-smallcaps-webfont.ttf') format('truetype'),
+         url('type/delicious-smallcaps-webfont.svg#DeliciousSmallCapsRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+body {background: #eaeaea; margin:0 auto; padding 0; color:#3D3D3D; font-family: Helvetica, Arial, sans-serif;}
+
+#login_form {width: 300px; background: #f0f0f0; border: 1px solid white; margin: 250px auto 0; padding: 1em;
+-moz-border-radius:3px;
+-webkit-border-radius: 3px;}
+
+h1,h2,h3,h4,h5 {
+	margin-top: 0;  font-family:'DeliciousHeavyRegular', Helvetica, Arial, sans-serif;	
+}
+
+.error {
+color: #393939;font-size:15px;	
+}
+
+fieldset {
+	width: 300px; margin:auto; margin-bottom: 2em; display:block;
+}
+
+h1 { text-shadow: 0 1px 0 white;
+	
+}
+
+header { background-color:#f4842d; height:6px;width:100%;
+}
+
+section{ margin:0 auto; display:inline-block;
+}
+
+article{ width:600px; text-align:left; font-family:'DeliciousRoman', Helvetica, Arial, sans-serif; background-color:#d1d1d1; margin-bottom:3px; padding:10px 0 10px 20px;;	
+}
+
+
+article p { margin: 0;
+}
+.bite { font-family:'DeliciousBold', Helvetica, Arial, sans-serif; font-size:20px;
+}
+
+.artist {
+}
+
+.song_artist { font-family:'DeliciousItalic', Helvetica, Arial, sans-serif; 
+}
+
+.song_title{ font-family:'DeliciousBoldItalic', Helvetica, Arial, sans-serif;
+}
+
+#info{ background-color:#2f2f2f; width:100%; padding:10px; display:inline-block; height:400px; margin: 0 auto;
+}
+
+#upper{width:960px; display:block; margin:0 auto; margin-top:50px;
+}
+
+#upper h3{ display:inline-block; margin: 15px 0 0px 0; color:#eaeaea;
+}
+
+#upper p { font-family:'DeliciousRoman', Helvetica, Arial, sans-serif; color:#eaeaea;
+}
+#about{width:460px; float:left; display:block; height:400px;
+}
+
+#form{width:460px; float:right; display:block;
+}
+
+#lyrics{ width:660px;display:block;
+}
+
+::selection {
+background: #f4842d;
+color: white;
+text-shadow: none;
+}
+
+/* Forms */
+button, input[type="reset"], input[type="button"], input[type="submit"] { line-height:normal !important; }
+input[type="text"], textarea {
+	color: #8c8c8c;
+	font-size: 14px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	outline: none;
+}
+label {
+	font-size:14px;
+	font-weight:bold;
+}
+input[type=text], input[type=password], textarea{
+	margin-bottom:8px;
+	background-color:#262626;
+	padding:1em;
+	width:auto;
+	float:left;
+	border: none;
+	-moz-box-shadow: 1px 1px 1px #191919 inset, 0 0 1px #181818 inset;
+	-webkit-box-shadow: 1px 1px 1px #191919 inset, 0 0 1px #181818 inset;
+	box-shadow: 1px 1px 1px #191919 inset, 0 0 1px #181818 inset;
+	width: 300px;
+	resize: none;
+	float:right;
+}
+
+input[type=submit], form a { border:none; marging-right:1em;padding:6px;text decoration:none; font-size:18px;
+-moz-border-radius: 0px;
+-webkit-border-radius: 0px;
+background: #f4842d;
+padding:10px;
+width:100px;
+float:right;
+color:white;
+
+	
+}
+
+input[type=submit]:hover, form a:hover {
+	background:#f4842d; cursor:pointer; text-decoration:underline;
+}
+
+#form form p {display:inline-block; float:right; margin: 3px 0 3px 0;
+}
+#form form p label {color:#eaeaea; float:left;display:inline-block;line-height:30px; padding-right:10px; text-align:right;
+}
+
+#logoarea{background-image: url(../img/lyricbites_logo.png);width:178px;height:100px; display:block;
+}
