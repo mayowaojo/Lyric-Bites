@@ -1,0 +1,522 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+       Remove this if you use the .htaccess -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Wanderas Inc. | Portfolio of Mayowa Ojo | Web Design, Graphic Design, Motion Design</title>
+  <meta name="description" content="">
+  <meta name="author" content="Mayowa Ojo">
+
+  <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+  <!-- CSS: implied media="all" -->
+  <link rel="stylesheet" href="css/switcher.php?default=style.css" />
+  <link rel="stylesheet" href="css/switcher2.php?default=jcarousel.css" />
+  <link rel="stylesheet" href="js/libs/zoombox/zoombox.css"/>
+  <!-- Uncomment if you are specifically targeting less enabled mobile browsers
+  <link rel="stylesheet" media="handheld" href="css/handheld.css?v=2">  -->
+
+  <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
+  <script src="js/libs/modernizr-1.7.min.js"></script>
+
+</head>
+
+<body>
+
+  <div id="container">
+    <header>
+        <div id="dropDown">
+		
+            <div id="dropDownArea">
+                <div id="dropDownAreaDiv"></div>
+                <div id="twitterFeed">
+                
+                  
+                    <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+                                <script>
+                                new TWTR.Widget({
+                                  version: 2,
+                                  type: 'profile',
+                                  rpp: 5,
+                                  interval: 6000,
+                                  width: 460,
+                                  height: 300,
+                                  theme: {
+                                    shell: {
+                                      background: '#1f1f1f',
+                                      color: '#e0e0e0'
+                                    },
+                                    tweets: {
+                                      background: '#1f1f1f',
+                                      color: '#8c8c8c',
+                                      links: '#1AC2EB'
+                                    }
+                                  },
+                                  features: {
+                                    scrollbar: false,
+                                    loop: false,
+                                    live: false,
+                                    hashtags: true,
+                                    timestamp: true,
+                                    avatars: false,
+                                    behavior: 'all'
+                                  }
+                                }).render().setUser('wanderasinc').start();
+                                </script>
+    			 <div id="twitterHeader"></div>
+
+            </div>
+            
+            <div id="tumblrFeed">
+            		<div id= "tumblr-badge"> </div>
+
+            	<script type="text/javascript" src="js/libs/tumblrBadge-1.1.js"></script>
+                <div id="tumblrHeader"></div>
+            </div>
+
+            <div id="shareArea">
+            <h2>Sharing is caring!</h2>
+            <div id="share">
+            <div class="shareItem">
+                    <g:plusone size="medium"></g:plusone>
+				</div>
+                
+                <div class="shareItem shareTwitter">
+                    
+                    <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="wanderasinc">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+                </div>
+            
+            	<div class="shareItem">
+                    <div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#appId=220316324653976&amp;xfbml=1"></script><fb:like href="http://www.facebook.com/wanderasinc" send="true" layout="button_count" width="140" show_faces="false" font=""></fb:like>
+            	</div>
+                
+				<div class="shareItem">
+
+                    <script type="text/javascript" src="http://platform.linkedin.com/in.js"></script><script type="in/share" data-counter="right"></script>
+                </div>
+                
+				<div class="shareItem shareTumblr">
+                    <a href="http://www.tumblr.com/share" title="Share on Tumblr" style="display:inline-block; text-indent:-9999px; overflow:hidden; width:81px; height:20px; background:url('http://platform.tumblr.com/v1/share_1.png') top left no-repeat transparent;">Share on Tumblr</a>
+                </div>
+                
+   		        </div>
+        	</div>
+        </div>	
+		
+	</div>
+    <div id="navHolder">
+    	
+
+
+
+
+        
+        
+    	<div id="headercontainer" class="clearfix">
+		<div id="logoarea"><a id="logo-link" href="#home" class="anchorLink"></a></div>
+        <nav>
+        	<ul class="kwicks horizontal">
+            	<li id="kwick1"><a href="#home" class="anchorLink">Home</a></li>
+            	<li id="kwick2"><a href="#about" class="anchorLink">About</a></li>
+            	<li id="kwick3"><a href="#portfolio" class="anchorLink">Portfolio</a></li>
+            	<li id="kwick4"><a href="#projects" class="anchorLink">Projects</a></li>
+            	<li id="kwick5"><a href="#contact" class="anchorLink">Contact</a></li>
+            </ul>
+        </nav>
+    	
+        <div id="goodies">
+        <div id="lightOnOff">
+			<div id="lightOff"><a class="tipn" title="Lights Off" href="css/switcher.php?style=multiple&switcher.php=style.css&switcher2.php=jcarousel.css"></a></div>
+			<div id="lightOn"><a class="tipn" title="Lights On" href="css/switcher.php?style=multiple&switcher.php=style_light.css&switcher2.php=jcarousel_light.css"></a></div>
+        </div>    
+            
+			<div id="dropArrow"><a class="drop tipn" title="Drop down menu" href="#"></a></div>
+			
+		</div>
+        
+        </div>
+    
+    </div>
+    
+    </header> 
+    
+    
+        <section id="home">
+        <h1><span>//</span> This site is built on <span>HTML5 &amp; CSS3</span>. Please be sure to have an <span>updated</span> browser :)</h1>
+        
+                <div id="piecemaker"></div>
+        </section>  
+   
+   <div class="clearfix"></div> 
+        <section id="about">
+  
+    	  
+    	    <h1>Hello.</h1>
+    	<div class="contentcontainer clearfix">
+        <div class="maincontent">
+    	     
+      <img src="img/me.jpg" alt="Mayowa">
+
+          
+    	   <h2>Hi, I'm Mayowa. I like to design all kinds of stuff.</h2>
+                 <p>  I was born in 1989, the same year as the internet, but that's probably just a coincidence! I was born and raised in Nigeria, I live in the U.S. and study Arts & Media Informatics and Business & Management in Scotland.
+                 <br/><br/>   
+                    As a kid I came this :: close to being a musician! But alas it was not meant to be. So now I spend my days listening to every type of music on the planet, and forever trying to unite my art and my promising music career... albeit not being musically inclined whatsoever.
+                 <br/><br/>   
+                    I went from traditional drawing and painting, and eased into graphic design, motion design, and web design. Of late I've gotten myself into typography, photography, and videography. Which one do I prefer? That's quite the conundrum. I'm passionate about what I do and always eager to push my limits. I enjoy collaborating with people.
+                 <br/><br/>  
+                    Oh, and I quote lyrics. A lot.
+                 </p>   
+  	    </div>
+  	  </div>  
+        </section>
+
+    <div class="clearfix"></div> 
+
+	
+
+        <section id="portfolio">
+
+                <h1>My stuff.</h1>
+          	<div class="contentcontainer clearfix">    	
+            
+            <div class="maincontent"> 
+            	
+  <ul id="filterOptions">
+    <li class="active"><a href="#" class="all">All</a></li>
+    <li><a href="#" class="design">Design</a></li>
+    <li><a href="#" class="video">Videos</a></li>
+    <li><a href="#" class="photo">Photography</a></li>
+  </ul>
+  
+  <ul class="gallery">
+  
+   	<li class="item pic" data-id="id-21" data-type="photo">
+      <a href="img/portfolio/whenigetolder.jpg" title="When I Get Older"  class="zoombox zgallery1"><img src="img/portfolio/thumbs/whenigetolder.jpg" alt="When I Get Older" />
+      <h3>When I Get Older</h3></a>
+    </li>
+    
+  	<li class="item vid" data-id="id-20" data-type="video">
+      <a href="http://vimeo.com/23834953" title="We Are Too Fine"  class="zoombox zgallery1"><img src="img/portfolio/thumbs/wearetoofine.jpg" alt="We Are Too Fine" />
+      <h3>We Are Too Fine</h3></a>
+    </li>
+   
+
+  	<li class="item pic" data-id="id-19" data-type="photo">
+      <a href="img/portfolio/finallyfound.jpg" title="Finally Found"  class="zoombox zgallery1"><img src="img/portfolio/thumbs/finallyfound.jpg" alt="Finally Found" />
+      <h3>Finally Found</h3></a>
+    </li>
+    
+  	<li class="item pic" data-id="id-18" data-type="design">
+      <a href="img/portfolio/thingsfallapart.jpg" title="Things Fall Apart"  class="zoombox zgallery1"><img src="img/portfolio/thumbs/thingsfallapart.jpg" alt="Things Fall Apart" />
+      <h3>Things Fall Apart</h3></a>
+    </li>
+
+  	<li class="item pic" data-id="id-17" data-type="photo">
+      <a href="img/portfolio/gatsbysgirl.jpg" title="Gatsby's Girl"  class="zoombox zgallery1"><img src="img/portfolio/thumbs/gatsbysgirl.jpg" alt="Gatsby's Girl" />
+      <h3>Gatsby's Girl</h3></a>
+    </li>
+
+  	<li class="item vid" data-id="id-16" data-type="video">
+      <a href="http://www.youtube.com/watch?v=Z81tCiqWs48" title="The Ri - I Don't Dance"  class="zoombox zgallery1"><img src="img/portfolio/thumbs/idontdance.jpg" alt="I Don't Dance" />
+      <h3>I Don't Dance</h3></a>
+    </li>
+
+  	<li class="item pic" data-id="id-15" data-type="design">
+      <a href="img/portfolio/dream.jpg" title="Just a Dream"  class="zoombox zgallery1"><img src="img/portfolio/thumbs/dream.jpg" alt="Just a Dream" />
+      <h3>Just a Dream</h3></a>
+    </li>
+
+  	<li class="item vid" data-id="id-14" data-type="video">
+      <a href="http://vimeo.com/23798477" title="Never Stop Moving"  class="zoombox zgallery1"><img src="img/portfolio/thumbs/neverstopmoving.jpg" alt="Never Stop Moving" />
+      <h3>Never Stop Moving</h3></a>
+    </li>
+
+  	<li class="item vid" data-id="id-13" data-type="video">
+      <a href="http://vimeo.com/16781778" title="Amazon Kindle"  class="zoombox zgallery1"><img src="img/portfolio/thumbs/kindle.jpg" alt="Amazon Kindle" />
+      <h3>Amazon Kindle</h3></a>
+    </li>
+
+
+  	<li class="item pic" data-id="id-12" data-type="design">
+      <a href="img/portfolio/staybeautiful.jpg" title="Stay Beautiful"  class="zoombox zgallery1"><img src="img/portfolio/thumbs/staybeautiful.jpg" alt="Stay Beautiful" />
+      <h3>Stay Beautiful</h3></a>
+    </li>
+
+  	<li class="item pic" data-id="id-11" data-type="design">
+      <a href="img/portfolio/slide.jpg" title="Slide"  class="zoombox zgallery1"><img src="img/portfolio/thumbs/slide.jpg" alt="Slide" />
+      <h3>Slide</h3></a>
+    </li>
+
+  	<li class="item pic" data-id="id-10" data-type="design">
+      <a href="img/portfolio/feelbeautiful.jpg" title="Feel Beautiful"  class="zoombox zgallery1"><img src="img/portfolio/thumbs/feelbeautiful.jpg" alt="Feel Beautiful" />
+      <h3>Feel Beautiful</h3></a>
+    </li>
+
+  	<li class="item vid" data-id="id-9" data-type="video">
+      <a href="http://vimeo.com/9616027" title="Let Your Imagination Wander"  class="zoombox zgallery1"><img src="img/portfolio/thumbs/imagination.jpg" alt="Let Your Imagination Wander" />
+      <h3>Let Your Imagination Wander</h3></a>
+    </li>
+    
+  	<li class="item vid" data-id="id-8" data-type="video">
+      <a href="http://vimeo.com/13786428" title="DreamIt SkinIt"  class="zoombox zgallery1"><img src="img/portfolio/thumbs/skinit.jpg" alt="Skin It" />
+      <h3>DreamIt SkinIt</h3></a>
+    </li>
+    
+    <li class="item pic" data-id="id-7" data-type="design">
+      <a href="img/portfolio/aspire.jpg" title="Aspire"  class="zoombox zgallery1"><img src="img/portfolio/thumbs/aspire.jpg" alt="Aspire" />
+      <h3>Aspire</h3></a>
+    </li>
+
+  	<li class="item pic" data-id="id-6" data-type="design">
+      <a href="img/portfolio/turnonthemusic.jpg" title="Turn On the Music"  class="zoombox zgallery1"><img src="img/portfolio/thumbs/turnonthemusic.jpg" alt="Turn On the Music" />
+      <h3>Turn On the Music</h3></a>
+    </li>
+
+  	<li class="item vid" data-id="id-5" data-type="video">
+      <a href="http://vimeo.com/9442351" title="MacLain Christie - Leave No Trace"  class="zoombox zgallery1"><img src="img/portfolio/thumbs/leavenotrace.jpg" alt="Leave No Trace" />
+      <h3>Leave No Trace</h3></a>
+    </li>
+    
+  	<li class="item pic" data-id="id-4" data-type="design">
+      <a href="img/portfolio/rootbender.jpg" title="Rootbender"  class="zoombox zgallery1"><img src="img/portfolio/thumbs/rootbender.jpg" alt="Rootbender" />
+      <h3>Rootbender</h3></a>
+    </li>
+        
+    <li class="item pic" data-id="id-3" data-type="design">
+      <a href="img/portfolio/ascend.jpg" title="Ascend"  class="zoombox zgallery1"><img src="img/portfolio/thumbs/ascend.jpg" alt="Ascend" />
+      <h3>Ascend</h3></a>
+    </li>
+
+  	<li class="item pic" data-id="id-2" data-type="design">
+      <a href="img/portfolio/whatuwant.jpg" title="I Know What U Want"  class="zoombox zgallery1"><img src="img/portfolio/thumbs/whatuwant.jpg" alt="I Know What U Want" />
+      <h3>I Know What U Want</h3></a>
+    </li>
+
+  	<li class="item pic" data-id="id-1" data-type="design">
+      <a href="img/portfolio/florallogo.jpg" title="Floral Logo"  class="zoombox zgallery1"><img src="img/portfolio/thumbs/florallogo.jpg" alt="Floral Logo" />
+      <h3>Floral Logo</h3></a>
+    </li>
+    
+    
+    
+    
+  </ul>
+	
+                  </div> 
+                <!-- /portfolio item --> 
+              </div> 
+              <!-- /portfolio items grid --> 
+            </section>
+
+    <div class="clearfix"></div> 
+
+
+		<section id="projects"> 	
+                <h1>Recent projects.</h1>
+          	<div class="contentcontainer clearfix">    	
+            
+            <div class="maincontent"> 
+
+    
+    <!-- Begin Project Navigation -->
+    <div id="projectlist"> 
+      
+      <!-- Begin Up Button -->
+      <div class="scroll"> <a href="#" id="projectlist-prev">1</a> </div>
+      <!-- End Up Button --> 
+      
+      <!-- Begin Navigation List -->
+      <ul>
+        <!-- Begin Entry Heading 1 -->
+        <li>
+          <a href="javascript:;" class="heading">Coming Soon...</a><!-- Post Name 1 --> 
+        </li>
+        <!-- End Entry Heading 1 --> 
+        
+        
+      </ul>
+      <!-- End Navigation List --> 
+      
+      <!-- Begin Down Button -->
+      <div class="scroll"> <a href="#" id="projectlist-next">2</a> </div>
+      <!-- End Down Button --> 
+      
+    </div>
+    <!-- End News Navigation --> 
+    
+    <!-- Begin News Text -->
+    <div id="output"> 
+      
+      <!-- Begin Entry 1 -->
+      <div class="entry">
+          <h2>Coming Soon...</h2>
+          <!-- Entry Heading--> 
+          <p>I've been busy of late working on some great projects. Stay tuned.
+          
+          </p>
+          
+          <!-- Entry Paragraph--> 
+      </div>
+      <!-- End Entry 1 --> 
+      
+      
+      
+    </div>
+    <!-- End News Text --> 
+    
+    <script type="text/javascript">
+		$(document).ready(function() {
+			$(".show").show();
+			$(".hide").hide();
+		});
+	</script> 
+   </div>
+        </div>
+        </section>
+
+
+
+	<div class="clearfix"></div> 
+    
+        <section id="contact">
+				<h1>Let's chat.</h1>
+    	<div class="contentcontainer clearfix">
+                <div class="maincontent"> 
+                    <!-- contact form --> 
+                    
+                    <div class="contact-form"> 
+                                        
+                    
+                      
+                       
+                       <form id="contact_form" action="">
+							<fieldset>
+					<div class="formRow">
+                      <div class="input"> 
+							  <input type="text" name="name" id="name" onBlur="if (this.value == '') {this.value = 'Name:'}" onFocus="if (this.value == 'Name:') {this.value = ''}" value="Name:" class="text-input" />
+                      </div>        
+							  <span class="error tip" title="Please enter name !" id="name_error"></span>
+                    </div>
+                    
+					<div class="formRow">
+                      <div class="input"> 
+							  <input type="text" value="E-mail:" onBlur="if (this.value == '') {this.value = 'E-mail:'}" onFocus="if (this.value == 'E-mail:') {this.value = ''}" name="email" id="email" class="text-input" />
+                      </div>        
+							  <span class="error tip" id="email_error"></span>
+							  <span class="error tip" title="Please enter valid email address !" id="email_error2"></span>
+
+                    </div>
+                    
+					<div class="formRow">
+                      <div class="input"> 
+							 <textarea cols="5" rows="10" name="msg" id="msg" onBlur="if (this.value == '') {this.value = 'Message:'}" onFocus="if (this.value == 'Message:') {this.value = ''}" class="text-input">Message:</textarea>
+                      </div>       
+							  <span class="error tip" title="Please enter message !"id="msg_error"></span>
+                    </div>
+                    
+					<div class="formRow">
+                               <div class="input" style="width:120px"> 
+							  <input type="text" name="name" id="captcha" onBlur="if (this.value == '') {this.value = '5+4='}" onFocus="if (this.value == '5+4=') {this.value = ''}" value="5+4=" class="text-input" />
+                      </div>
+                      <span class="error tip" title="Are you human? What's 5+4" id="captcha_error"></span>
+                    </div>
+                    
+                              <input type="submit" name="submit" class="button submit" id="submit_btn" value="send"/>
+							</fieldset>
+						  </form>
+					
+                    
+                    
+                    </div> 
+                    <!-- /contact form --> 
+                  <div class="col2"> 
+                    <h2>Where in the world is Mayowa?</h2> 
+                      <div id="map"><img src="img/map.png" alt="map" height="233" width="420"> </div> 
+                    <div class="col-1"> 
+                      <p>I'm currently in Maryland. But feel free to drop a line.</p> 
+                    </div> 
+                    <div class="col-2"> 
+                    <p>info[at]wanderasinc[dot]com</a><br/>
+                    <a href="http://wanderasinc.com">wanderasinc.com</a><br/><br/>
+                   
+                    </p>
+                      </div> 
+                  </div> 
+                </div> 
+            </div>    
+        </section>
+
+	<div class="clearfix"></div> 
+
+        <footer>
+        	<!-- social icons --> 
+          <div id="footer-social" class="clearfix"> <a href="http://twitter.com/wanderasinc" target="_blank" class="social twitter tip" title="Folow me on twitter"><a/> <a href="http://blog.wanderasinc.com/" target="_blank" class="social tumblr tip" title="Folow me on tumblr"></a> <a href="http://www.facebook.com/wanderasinc" target="_blank" class="social facebook tip" title="Join me on Facebook"></a> <a href="http://wandera89.deviantart.com/" target="_blank" class="social deviantART tip" title="View my profile on deviantART"></a> <a href="http://vimeo.com/wandera89" target="_blank" class="social vimeo tip" title="View my profile on vimeo"> <a href="http://www.linkedin.com/in/mayowaojo/" target="_blank" class="social linkedin tip" title="View my profile on Linkedin"></a> <a href="https://plus.google.com/101259139651443400891/" target="_blank" class="social google tip" title="View my profile on Google+"></a> </div> 
+          <!-- /social icons --> 
+          <!-- copyright --> 
+          <div id="copyright"> 
+            <p>Copyright 2011 Wanderas Inc. Don't even think about it.</p> 
+          </div> 
+          <!-- /copyright --> 
+        </footer>	
+	<div class="clearfix"></div> 
+  </div> <!--! end of #container -->
+
+
+  <!-- JavaScript at the bottom for fast page loading -->
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
+  <script>window.jQuery || document.write("<script src='js/libs/jquery-1.5.1.min.js'>\x3C/script>")</script>
+
+        <script src="js/libs/jquery.anchor.js"></script>
+        <script src="js/libs/swfobject/swfobject.js"></script>
+		<script src="js/libs/jquery.easing.1.3.js"></script>
+		<script src="js/libs/jquery.kwicks-1.5.1.pack.js"></script>
+		<script src="js/libs/list.js"></script>
+		<script src="js/libs/jScrollPane.js"></script>
+		<script src="js/libs/jquery.jcarousel.js"></script>
+		<script src="js/libs/zoombox/zoombox.js"></script>
+        <script src="js/libs/jquery.quicksand.js"></script>
+        <script src="js/libs/jquery.tipsy.js"></script>
+		<script src="js/libs/contact.js"></script>
+		<script src="https://apis.google.com/js/plusone.js"></script>
+        <script src="http://platform.tumblr.com/v1/share.js"></script>
+
+
+  <!-- scripts concatenated and minified via ant build script-->
+  <script src="js/plugins.js"></script>
+  <script src="js/script.js"></script>
+  <!-- end scripts-->
+
+
+  <!--[if lt IE 7 ]>
+    <script src="js/libs/dd_belatedpng.js"></script>
+    <script>DD_belatedPNG.fix("img, .png_bg"); // Fix any <img> or .png_bg bg-img. Also, please read goo.gl/mZiyb </script>
+  <![endif]-->
+
+
+  <!-- mathiasbynens.be/notes/async-analytics-snippet Change UA-XXXXX-X to be your site's ID -->
+  <script>
+    var _gaq=[["_setAccount","UA-15248749-1"],["_trackPageview"]];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+    g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
+    s.parentNode.insertBefore(g,s)}(document,"script"));
+  </script>
+
+</body>
+</html>
